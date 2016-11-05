@@ -1,0 +1,24 @@
+/*
+ * This marks the begining of scss imports
+ */
+@import '~material-design-lite/src/_variables.scss';
+@import '~material-design-lite/src/_mixins.scss';
+@import '~material-design-lite/src/layout/_layout.scss';
+@import '~material-design-lite/src/snackbar/_snackbar.scss';
+
+/*
+ * This marks the begining of css imports
+ */
+@import './other.css';
+
+/*
+ * This marks the begining of app.scss own rules
+ */
+a {
+  color: $text-link-color;
+  font-weight: 500;
+}
+
+.some-element {
+    color: fuchsia;
+}
